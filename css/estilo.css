@@ -1,0 +1,273 @@
+/* Parámetros globales de Maquetación y Estilo */
+
+h1, h2, h3 {
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+h4, h5, h6, p, a {
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Estilo propio del sitio web */
+aside#menu-cortina { }
+aside#menu-cortina a#abrir { }
+aside#menu-cortina a#abrir i { }
+aside#menu-cortina a#abrir:hover { }
+aside#menu-cortina a#abrir:hover i { }
+
+aside#menu-cortina a#cerrar { }
+aside#menu-cortina a#cerrar i { }
+aside#menu-cortina a#cerrar:hover { }
+aside#menu-cortina a#cerrar:hover i { }
+
+aside#menu-cortina nav#menu-idioma-movil { }
+aside#menu-cortina nav#menu-idioma-movil a { }
+aside#menu-cortina nav#menu-idioma-movil a:hover { }
+aside#menu-cortina nav#menu-idioma-movil span { }
+
+
+/* Body Index */
+
+header
+
+header article#header {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    
+    background: #980;
+    background-size: cover;    
+}
+
+header article#header a#logo {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+
+    
+}
+header article#header a#logo img {
+    width: 198px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+}
+header article#header a#logo:hover img {
+    width: 198px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+}
+
+header article#header nav#menu-principal {
+    width: 63px;
+    height: 21px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: none;
+}
+header article#header nav#menu-principal a {
+    width: 63px;
+    height: 21px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: none;
+}
+header article#header nav#menu-principal a:hover {
+    width: 63px;
+    height: 21px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: none;
+}
+
+header article#header nav#menu-idioma {
+    width: 52px;
+    height: 21px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: right;
+}
+header article#header nav#menu-idioma a {
+    width: 52px;
+    height: 21px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: right;
+}
+header article#header nav#menu-idioma a:hover {
+    width: 52px;
+    height: 21px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: right;
+}
+header article#header nav#menu-idioma span {
+    width: 52px;
+    height: 21px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: right;
+}
+
+header article#header nav#menu-redes {
+    width: 100%;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: right;
+}
+header article#header nav#menu-redes a {
+    width: 100%;
+    height: 21px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    float: right;
+}
+header article#header nav#menu-redes a i {}
+header article#header nav#menu-redes a:hover {}
+
+
+main
+
+main section#slide-home 
+main section#slide-home article {}
+main section#slide-home article figure {}
+main section#slide-home article figure div {}
+main section#slide-home article figure div h3 {}
+main section#slide-home article figure div h3 img {}
+main section#slide-home article figure div h3 img p {}
+main section#slide-home article figure div h3 img p a {}
+main section#slide-home article figure div h3 img p a:hover{}
+
+footer
+
+footer p {}
+
+
+/*Body Acerca de mí*/ 
+
+main
+
+main section#sectiondemi article#acerdademi {}
+main section#sectiondemi article#acerdademi h2 {}
+main section#sectiondemi article#acerdademi img {}
+main section#sectiondemi article#acerdademi p {}
+
+/*Body de fotos*/
+
+main
+
+main section#fotos {}
+main section#fotos h2 {}
+main section#fotos nav{}
+main section#fotos nav a{}
+main section#fotos nav a:hover {}
+
+/*Body de branding*/
+
+main 
+
+main section#sectionfotos {}
+main section#sectionfotos article {}
+main section#sectionfotos article h2 {}
+main section#sectionfotos article nav {}
+main section#sectionfotos article nav a {}
+main section#sectionfotos article nav a:hover {}
+
+
+/*Body de contacto*/
+
+main
+
+main section#sectioncontacto {}
+main section#sectioncontacto h2 {}
+main section#sectioncontacto nav {}
+main section#sectioncontacto nav a {}
+main section#sectioncontacto nav a i {}
+main section#sectioncontacto nav a:hover {}
+
+
+/* Zona Responsive */
+
+/*
+Escritorio y TV         >= 1200px
+Tablets                 <= 1199px --- >= 500px
+Móviles                 <= 499px --- >= 340px
+*/
+
+@media only screen and (max-width: 1199px){    /*Tablets*/
+    aside#menu-cortina {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1099px){
+    
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+    
+}
+
+@media only screen and (max-width: 799px){
+    
+}
+
+@media only screen and (max-width: 699px){
+    
+}
+
+@media only screen and (max-width: 599px){
+    
+}
+
+@media only screen and (max-width: 499px){     /*Móviles*/
+    
+}
+
+@media only screen and (max-width: 449px){
+    
+}
+
+@media only screen and (max-width: 399px){
+    
+}
+
+@media only screen and (max-width: 349px){
+    
+}
+
+
+
+
+
+
